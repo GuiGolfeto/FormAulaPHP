@@ -217,6 +217,13 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+          flex-direction: column;
+}
+
+.voltarLogin{
+  padding: 1.5rem;
+  font-size: 1.0rem;
+  color: white;
 }
 
 .container .section-two button {
@@ -225,7 +232,8 @@ body {
   border-radius: 0.2rem;
   outline: none;
   border: none;
-  font-size: medium;
+  font-size: 1.1rem;
+  font-weight: bold;
   background-color: #ffd60a;
   color: #242222;
   cursor: pointer;
