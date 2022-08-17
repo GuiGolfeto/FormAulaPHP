@@ -4,11 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../style/index.css" />
+    <link rel="stylesheet" href="../FormAulaPHP/style/index.css" />
     <title>Register Form</title>
   </head>
   <body>
-    <form action="" method="post" name="formLogin" id="formLogin" enctype="multipart/form-data">
+    <?php
+      $nameUser = $_POST['nameUser'];
+      $emailUser = $_POST['emailUser'];
+      $passwordUser = $_POST['passwordUser'];
+      $celUser = $_POST['celUser'];
+      $nascUser = $_POST['nascUser'];
+
+      echo $nameUser;
+      echo "<br>";
+      echo $emailUser;
+      echo "<br>";
+      echo $passwordUser;
+      echo "<br>";
+      echo $celUser;
+      echo "<br>";
+      echo $nascUser;
+    ?>
+    <form action="" method="post" name="formRegister" id="formRegister" enctype="multipart/form-data">
       <div class="container">
         <div class="section-one">
           <div class="social-links">
